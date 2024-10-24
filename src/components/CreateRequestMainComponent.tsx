@@ -2,11 +2,7 @@ import React from "react";
 import { Button } from "flowbite-react";
 import { HiPlus, HiX } from "react-icons/hi";
 
-interface CreateRequestMainComponentProps {
-}
-export function CreateRequestMainComponent(
-  props: CreateRequestMainComponentProps
-) {
+export function CreateRequestMainComponent() {
   return (
     <div className="flex flex-col">
       <div className="flex items-center justify-between p-2 border-b rounded-t">
