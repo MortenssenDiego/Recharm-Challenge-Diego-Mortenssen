@@ -85,11 +85,7 @@ type URLFieldAction = {
   value: string;
 };
 
-interface CreateRequestMainComponentProps {
-}
-export function CreateRequestMainComponent(
-  props: CreateRequestMainComponentProps
-) {
+export function CreateRequestMainComponent() {
   const [focusedId, setFocusedId] = useState('');
   const [urls, dispatch] = useReducer(
     (state: URLFieldData[], action: URLFieldAction) => {
